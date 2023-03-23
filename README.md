@@ -20,4 +20,4 @@ campaign
 		
 The order in which the first three files are uploaded can vary but the last file to be uploaded must be the campaign file. 
 [CrowdfundingReadme.docx](https://github.com/jesstrus99/Crowdfunding_ETL/files/11057270/CrowdfundingReadme.docx)
-![image](https://user-images.githubusercontent.com/102982635/227389716-f967441c-a234-402c-9223-12dad231dded.png)
+
