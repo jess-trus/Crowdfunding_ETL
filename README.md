@@ -15,7 +15,8 @@ After making the subcategory and category dataframes we made a campaign datafram
 ![image](https://user-images.githubusercontent.com/118862894/227390041-d451355e-ce24-4475-ba0e-197d6f0f2fef.png)
 
 We then imported a contacts excel file, and read it in as a dataframe. We used iterrows to loop through the dataframe and put the data into a list, from there we made a new dataframe called contacts and split the name column into two new columns called first and last name.
-![image](https://user-images.githubusercontent.com/118862894/227390084-465974ec-772e-4e92-bfc6-0b0776653718.png)
+![image](https://user-images.githubusercontent.com/118862894/227393421-38b7e7e0-b24a-4154-ae44-e97001d7f4c5.png)
+
 
 After making the four new dataframes we exported each dataframe as a csv file. 
 
