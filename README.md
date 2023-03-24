@@ -40,16 +40,20 @@ For the second part of this project we made a sql schema to make tables that wil
 		
 The order in which the first three files are uploaded can vary but the last file to be uploaded must be the campaign file. 
 
-category table
-<img width="190" alt="image" src="https://user-images.githubusercontent.com/118862894/227390317-f8baca0c-594f-4330-8911-7e64b3695b92.png">
+
+
+<img width="190" alt="image" src="https://user-images.githubusercontent.com/118862894/227390317-f8baca0c-594f-4330-8911-7e64b3695b92.png" title = "category table">
 
 subcategory table
+
 <img width="188" alt="image" src="https://user-images.githubusercontent.com/118862894/227390545-34115154-cfa2-4c23-857e-10d0909b38d1.png">
 
 contacts table
+
 <img width="358" alt="image" src="https://user-images.githubusercontent.com/118862894/227390583-7eff0e70-ad65-4c63-a754-d46c01b77add.png">
 
 campaign table
+
 <img width="662" alt="image" src="https://user-images.githubusercontent.com/118862894/227390440-65c17268-799f-4311-aac6-c9ef2d58a877.png">
 
 ## Technologies
