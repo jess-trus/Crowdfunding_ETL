@@ -41,8 +41,9 @@ For the second part of this project we made a sql schema to make tables that wil
 The order in which the first three files are uploaded can vary but the last file to be uploaded must be the campaign file. 
 
 
+category table
 
-<img width="190" alt="image" src="https://user-images.githubusercontent.com/118862894/227390317-f8baca0c-594f-4330-8911-7e64b3695b92.png" title = "category table">
+<img width="190" alt="image" src="https://user-images.githubusercontent.com/118862894/227390317-f8baca0c-594f-4330-8911-7e64b3695b92.png">
 
 subcategory table
 
