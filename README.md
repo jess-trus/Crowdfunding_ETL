@@ -1,4 +1,4 @@
-# Crowdfunding_ETL
+# Crowdfunding_ETL :fire:
 
 ## Table of Contents
 - Introduction
@@ -31,7 +31,7 @@ We then imported a contacts excel file, and read it in as a dataframe. We used i
 After making the four new dataframes we exported each dataframe as a csv file. 
 
 ## Part 2: Crowdfunding Database
-------------------------------------------------------
+
 For the second part of this project we made a sql schema to make tables that will hold the csv files previously made. First we created the database for the project within pg admin. Then we imported the files into the table and made a query to view the table to make sure it was uploaded. The order in which the csv files must be imported is as follows:
 1. contacts
 2. subcategory
