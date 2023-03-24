@@ -12,7 +12,7 @@ For this project we took a crowdfunding file that we extracted, transformed, and
 
 ## Method
 
-In order to make the category dataframe we used a split function to split the crowdfunding dataframe column titled “category & sub-category” into two columns. From there we created a list of the unique values in each new column then used the length of each list and a list comprehension to make two new data frames, one for category and one for subcategory.
+* In order to make the category dataframe we used a split function to split the crowdfunding dataframe column titled “category & sub-category” into two columns. From there we created a list of the unique values in each new column then used the length of each list and a list comprehension to make two new data frames, one for category and one for subcategory.
 
 ![image](https://user-images.githubusercontent.com/118862894/227392750-b706d2a9-2cf4-45b7-9bf6-0b9074652ae6.png)
 
@@ -20,20 +20,20 @@ In order to make the category dataframe we used a split function to split the cr
 ![image](https://user-images.githubusercontent.com/118862894/227392856-776af01d-6a5a-4f66-a332-f34bd50c7b98.png)
 
 
-After making the subcategory and category dataframes we made a campaign dataframe by cleaning a copy of the original crowdfunding dataframe. We updated several columns’ data type and merged the category and sub_category dataframes. Then we dropped the columns we did not need.
+* After making the subcategory and category dataframes we made a campaign dataframe by cleaning a copy of the original crowdfunding dataframe. We updated several columns’ data type and merged the category and sub_category dataframes. Then we dropped the columns we did not need.
 ![image](https://user-images.githubusercontent.com/118862894/227390041-d451355e-ce24-4475-ba0e-197d6f0f2fef.png)
 
-We then imported a contacts excel file, and read it in as a dataframe. We used iterrows to loop through the dataframe and put the data into a list, from there we made a new dataframe called contacts and split the name column into two new columns called first and last name.
+* We then imported a contacts excel file, and read it in as a dataframe. We used iterrows to loop through the dataframe and put the data into a list, from there we made a new dataframe called contacts and split the name column into two new columns called first and last name.
 ![image](https://user-images.githubusercontent.com/118862894/227393421-38b7e7e0-b24a-4154-ae44-e97001d7f4c5.png)
 
 
-After making the four new dataframes we exported each dataframe as a csv file. 
+* After making the four new dataframes we exported each dataframe as a csv file. 
 
 For the second part of this project we made a sql schema to make tables that will hold the csv files previously made. First we created the database for the project within pg admin. Then we imported the files into the table and made a query to view the table to make sure it was uploaded. The order in which the csv files must be imported is as follows:
-contacts,
-subcategory,
-category,
-campaign
+1. contacts
+2. subcategory
+3. category
+4. campaign
 		
 The order in which the first three files are uploaded can vary but the last file to be uploaded must be the campaign file. 
 
