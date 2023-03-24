@@ -6,7 +6,7 @@ For this project we took a crowdfunding file that we extracted, transformed, and
 In order to make the category dataframe we used a split function to split the crowdfunding dataframe column titled “category & sub-category” into two columns. From there we created a list of the unique values in each new column then used the length of each list and a list comprehension to make two new data frames, one for category and one for subcategory.
 !image <img width="121" alt="image" src="https://user-images.githubusercontent.com/118862894/227389923-0759291e-0ef4-46c2-bbcd-b57a04514985.png">
 
-![image](https://user-images.githubusercontent.com/118862894/227389997-b422d489-1bf1-44d5-8e2f-e454f6a3a499.png)
+![image](https://user-images.githubusercontent.com/118862894/227389997-b422d489-1bf1-44d5-8e2f-e454f6a3a499.png | width=100)
 
 After making the subcategory and category dataframes we made a campaign dataframe by cleaning a copy of the original crowdfunding dataframe. We updated several columns’ data type and merged the category and sub_category dataframes. Then we dropped the columns we did not need.
 ![image](https://user-images.githubusercontent.com/118862894/227390041-d451355e-ce24-4475-ba0e-197d6f0f2fef.png)
