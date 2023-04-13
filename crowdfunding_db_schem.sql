@@ -23,7 +23,7 @@ CREATE TABLE campaign (
 	company_name varchar(50)NOT NULL,
 	description text NOT NULL,	
 	goal real NOT NULL,
-	pledged real, NOT NULL
+	pledged real NOT NULL,
 	outcome varchar(20) NOT NULL,
 	backers_count integer NOT NULL,
 	country varchar(10) NOT NULL,
